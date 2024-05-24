@@ -1,25 +1,92 @@
+@font-face {
+	font-family: "picnic";
+	src: url("PicNic-Regular.eot");
+	src: url("PicNic-Regular.woff") format("woff"),
+	url("PicNic-Regular.woff2") format("woff2"),
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+a {
+		font-family: "Manrope", sans-serif;
+		
+		color: black;
+		text-decoration: none;
+		
+	  }
+
 
 html {
     background-image: url(LUMIERES\ \(4\).JPG);
     background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed;
-background-size: cover;
-color: aliceblue;
-
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	color: aliceblue;
+	overflow-x: hidden;
 }
 
+
 body {
+	max-width: 100%;
+		
+}
+
+
+section {
     text-align: center;
     position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+	background-color: white; /* Green */
+	padding: 5px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 3px 1.5px;
+	border-radius: 30px;
+	border-style: solid;
+	border-color: black;
+
 }
 
 header {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
+	display: flexbox;
+	-webkit-text-stroke: 0.05px black;
+	font-family: 'picnic';
+	font-weight: bolder;
+    font-size: 8rem;
     text-align: center;
-    
+	padding-top: 4rem;   
+}
+
+nav {
+	display: flexbox;
+	-webkit-text-stroke: 0.05px black;
+	font-family: 'picnic';
+	font-weight: bolder;
+	font-size: 7rem;
+	text-align: left;
+	padding-left: 6rem;
+	padding-top: 1rem;
+}
+
+aside {
+	display: flexbox;
+	-webkit-text-stroke: 0.05px black;
+	font-family: 'picnic';
+	font-weight: bolder;
+	font-size: 9rem;
+	text-align: right;
+	padding-bottom: 3rem;
+	padding-right: 5rem;
+}
+
+section {
+	font-family: 'manrope';
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: black;
 }
